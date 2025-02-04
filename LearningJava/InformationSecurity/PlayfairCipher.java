@@ -59,6 +59,33 @@ public class PlayfairCipher {
         }
         return cipherText.toString();
     }
+    public static String convertToPlainText(char first, char second, char[][] matrix) {
+        int[] firstPos = findPosition(first, matrix);
+        int[] secondPos = findPosition(second, matrix);
+
+        if (firstPos[0] == secondPos[0]) { // Same row
+            first = matrix[firstPos[0]][(firstPos[1] + 4) % 5];
+            second = matrix[secondPos[0]][(secondPos[1] + 4) % 5];
+        } else if (firstPos[1] == secondPos[1]) { // Same column
+            first = matrix[(firstPos[0] + 4) % 5][firstPos[1]];
+            second = matrix[(secondPos[0] + 4) % 5][secondPos[1]];
+        } else {
+            first = matrix[firstPos[0]][secondPos[1]];
+            second = matrix[secondPos[0]][firstPos[1]];
+        }
+
+        return String.valueOf(first) + second;
+    }
+
+    public static String processCipherText(String ct, char[][] matrix) {
+        StringBuilder plainText = new StringBuilder();
+        for (int i = 0; i < ct.length(); i += 2) {
+            char first = ct.charAt(i);
+            char second = ct.charAt(i + 1);
+            plainText.append(convertToPlainText(first, second, matrix));
+        }
+        return plainText.toString();
+    }
 
     public static void main(String[] args) {
         String pt, ct, key = "";
@@ -98,6 +125,8 @@ public class PlayfairCipher {
         System.out.println("Formatted Plaintext: " + pt);
         ct = processPlainText(pt, matrix);
         System.out.println("Cipher Text: " + ct);
+        String decryptedText = processCipherText(ct, matrix);
+        System.out.println("Decrypted Text: " + decryptedText);
         inp.close();
     }
 }

@@ -1,6 +1,6 @@
 package LearningJava.InformationSecurity;
 import java.util.Scanner;
-public class CaesaraCypher {
+public class CaesarCipher {
     public static void main(String[] args) {
         String pt, ct = "";
         int key, n;
