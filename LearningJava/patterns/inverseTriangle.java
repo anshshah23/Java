@@ -1,6 +1,12 @@
+/*
+    *******
+     *****
+      ***
+       *
+*/
 import java.util.Scanner;
 
-public class Pattern8 {
+public class inverseTriangle {
     public static void main(String args[]) {
         Scanner inp = new Scanner(System.in);
         int n = inp.nextInt(); 
