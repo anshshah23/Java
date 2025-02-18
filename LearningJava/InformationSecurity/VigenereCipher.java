@@ -1,3 +1,5 @@
+package LearningJava.InformationSecurity;
+
 import java.util.Scanner;
 
 public class VigenereCipher {

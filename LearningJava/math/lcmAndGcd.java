@@ -1,4 +1,4 @@
-package LearningJava.math;
+package LearningJava.Math;
 
 public class lcmAndGcd {
     public static int[] calculateLcmAndGcd(int a, int b) {

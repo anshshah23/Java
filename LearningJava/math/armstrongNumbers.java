@@ -1,4 +1,4 @@
-package LearningJava.math;
+package LearningJava.Math;
 
 import java.util.Scanner;
 
