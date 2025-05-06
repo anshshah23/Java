@@ -1,6 +1,7 @@
 {
     "java.project.sourcePaths": [
-        "InformationSecurity"
+        "InformationSecurity",
+        "Contests/START182D (Codechef)"
     ],
     "java.project.outputPath": "bin",
     "java.project.referencedLibraries": [
