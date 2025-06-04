@@ -1,5 +1,3 @@
-package LearningJava.Recursion;
-
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -15,8 +13,7 @@ public class factorial {
         while (t-- > 0) {
             long N = sc.nextLong();
 
-            Solution ob = new Solution();
-            ArrayList<Long> ans = ob.factorialNumbers(N); // Ensure Solution class is correctly defined
+            ArrayList<Long> ans = Solution.factorialNumbers(N); // Call static method directly
             for (long num : ans) {
                 System.out.print(num + " ");
             }
@@ -25,9 +22,7 @@ public class factorial {
         sc.close();
     }
 }
-
-// User function Template for Java
-class Solution { // Ensure this class is in the same package
+class Solution {
     public static ArrayList<Long> factorialNumbers(long n) { // Add 'public'
         ArrayList<Long> arr = new ArrayList<>();
         printFact(1, 1, n, arr);

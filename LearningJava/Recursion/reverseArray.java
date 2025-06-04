@@ -1,7 +1,4 @@
-package LearningJava.Recursion;
-
 import java.io.*;
-import java.util.*;
 /* Sample input format
 1
 1 2 3 4 5

@@ -1,4 +1,3 @@
-package LearningJava.Recursion;
 import java.io.*;
 public class printWithoutLoop {
     public static void main(String[] args) {
