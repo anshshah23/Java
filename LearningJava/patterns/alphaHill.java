@@ -3,7 +3,7 @@
   A B A
 A B C B A
 */
-
+package Patterns;
 public class alphaHill {
     public static void printPattern(int n) {
         for(int i = 1 ; i <= n ; i++ ){

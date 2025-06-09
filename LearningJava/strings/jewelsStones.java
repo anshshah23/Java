@@ -1,3 +1,4 @@
+package strings;
 class jewelsStones {
     public int numJewelsInStones(String jewels, String stones) {
         int s = stones.length();

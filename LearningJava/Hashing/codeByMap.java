@@ -1,4 +1,4 @@
-package LearningJava.Hashing;
+package Hashing;
 
 public class codeByMap {
     

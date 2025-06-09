@@ -1,3 +1,5 @@
+package strings;
+
 public class parentheses {
     public int maxDepth(String s) {
         int max = 0, count = 0;
@@ -12,5 +14,11 @@ public class parentheses {
             }
         }
         return max;
+    }
+    public static void main(String[] args) {
+        parentheses Solution = new parentheses();
+        String inp = "((()) (((()))) )";//max depth=5
+        int res = Solution.maxDepth(inp);
+        System.out.println(res);
     }
 }

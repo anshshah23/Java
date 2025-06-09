@@ -1,4 +1,5 @@
-import java.util.Arrays;
+package strings;
+
 class revStringInplace {
     public void reverseString(char[] s) {
         int start = 0;

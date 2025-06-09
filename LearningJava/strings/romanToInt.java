@@ -1,5 +1,7 @@
+package strings;
+
 class romanToInt {
-    public int romanToInt(String s) {
+    public int romanToInteger(String s) {
         int num = 0;
         int prev = 0;
         for (int i = s.length() - 1; i >= 0; i--) {
@@ -35,5 +37,11 @@ class romanToInt {
             prev = curr;
         }
         return num;
+    }
+    public static void main(String[] args) {
+        romanToInt Sol = new romanToInt();
+        String inp = "MCL";
+        int res = Sol.romanToInteger(inp);
+        System.out.println(res);
     }
 }

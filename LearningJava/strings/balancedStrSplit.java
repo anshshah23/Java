@@ -1,4 +1,5 @@
-import java.util.*;
+package strings;
+
 class balancedStrSplit {
     public int balancedStringSplit(String s) {
         int cnt = 0;

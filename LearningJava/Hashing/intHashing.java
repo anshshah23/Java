@@ -1,4 +1,4 @@
-package LearningJava.Hashing;
+package Hashing;
 
 //{ Driver Code Starts
 import java.io.*;

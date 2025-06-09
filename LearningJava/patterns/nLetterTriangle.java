@@ -7,6 +7,7 @@ A B C D E
 A B C D E F 
 A B C D E F G 
 */
+package Patterns;
 
 public class nLetterTriangle {
     public static void printPattern(int n) {

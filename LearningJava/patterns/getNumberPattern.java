@@ -6,6 +6,7 @@
 32223
 33333
 */
+package Patterns;
 
 public class getNumberPattern {
     public static void printPattern(int n) {

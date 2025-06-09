@@ -1,4 +1,3 @@
-import java.io.*;
 public class printWithoutLoop {
     public static void main(String[] args) {
         // Hardcoded test cases

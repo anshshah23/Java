@@ -1,9 +1,12 @@
 /* Input
-abcdagefb
+abshdskajksaa
 5
-a n g b e
+a d n k s
+
+
+Output: 4, 1, 0, 2, 3, 
 */
-package LearningJava.Hashing;
+package Hashing;
 
 import java.util.Scanner;
 
@@ -22,7 +25,7 @@ public class charHashing {
         int n = input.nextInt();
         while (n > 0) {
             char c = input.next().charAt(0);
-            System.out.println(hash[c-'a']+"\n");
+            System.out.print(hash[c-'a']+", ");
             n--;
         }
         input.close();

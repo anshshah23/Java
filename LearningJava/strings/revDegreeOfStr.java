@@ -1,4 +1,5 @@
-import java.util.*;
+package strings;
+
 class revDegreeOfStr {
     public int reverseDegree(String s) {
         int n = s.length();
