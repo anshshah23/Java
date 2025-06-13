@@ -21,26 +21,26 @@ public class infixToPostfix {
         Stack<Character> st = new Stack<>();
         StringBuilder res = new StringBuilder();
         for (int i = 0; i < s.length(); i++) {
-            if (Character.isLetterOrDigit(s.charAt(i))) {
-                res.append(s.charAt(i));
-            } else if (s.charAt(i) == '(') {
-                st.push(s.charAt(i));
-            } else if (s.charAt(i) == ')') {
-                while (!st.isEmpty() && st.peek() != '(') {
+            char cur = s.charAt(i);
+            if(Character.isLetterOrDigit(cur)){
+                res.append(cur);
+            }
+            else if(cur == '('){
+                st.push(cur);
+            }else if(cur == ')'){
+                while(!st.isEmpty() && st.peek()!='('){
                     res.append(st.pop());
                 }
                 st.pop();
             } else {
-                while (!st.isEmpty() && st.peek() != '(' &&
-                        (operatorPrecedence(s.charAt(i)) < operatorPrecedence(st.peek()) ||
-                        (operatorPrecedence(s.charAt(i)) == operatorPrecedence(st.peek()) && s.charAt(i) != '^'))) {
+                while(!st.isEmpty() && st.peek()!='(' && (operatorPrecedence(cur)>operatorPrecedence(st.peek()) || operatorPrecedence(cur) == operatorPrecedence(st.peek()) && cur!='^')){
                     res.append(st.pop());
                 }
-                st.push(s.charAt(i));
+                st.push(cur);
             }
         }
         while (!st.isEmpty()) {
-            res.append(st.pop());
+            res.append(st.pop());                
         }
         return res.toString();
     }
