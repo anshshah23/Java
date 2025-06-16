@@ -4,7 +4,6 @@ import java.util.*;
 
 public class postfixToPrefix {
     static boolean isOperator(char x) {
-
         switch (x) {
             case '+':
             case '-':
@@ -14,12 +13,10 @@ public class postfixToPrefix {
         }
         return false;
     }
-
     static String postToPre(String post_exp) {
         Stack<String> s = new Stack<String>();
         int length = post_exp.length();
         for (int i = 0; i < length; i++) {
-
             if (isOperator(post_exp.charAt(i))) {
                 String op1 = s.peek();
                 s.pop();
@@ -33,7 +30,6 @@ public class postfixToPrefix {
                 s.push(post_exp.charAt(i) + "");
             }
         }
-
         String ans = "";
         for (String i : s)
             ans += i;
