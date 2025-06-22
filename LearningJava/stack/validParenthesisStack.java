@@ -1,4 +1,5 @@
 package stack;
+import java.util.Stack;
 class validParenthesisStack {
     public boolean isValid(String s) {
         Stack<Character> st = new Stack<>();
@@ -9,11 +10,11 @@ class validParenthesisStack {
             } else {
                 if(st.isEmpty()) return false;
                 char top = st.peek();
-                if (st.peek() == '(' && a == ')') {
+                if (top == '(' && a == ')') {
                     st.pop();
-                } else if (st.peek() == '{' && a == '}') {
+                } else if (top == '{' && a == '}') {
                     st.pop();
-                } else if (st.peek() == '[' && a == ']') {
+                } else if (top == '[' && a == ']') {
                     st.pop();
                 }
                 else return false;
