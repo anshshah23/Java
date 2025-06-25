@@ -1,4 +1,4 @@
-class Solution {
+class kmp {
     public int strStr(String haystack, String needle) {
         if (needle.length() == 0) return 0;
         int[] lps = new int[needle.length()];
@@ -39,5 +39,13 @@ class Solution {
                 }
             }
         }
+    }
+    public static void main(String[] args) {
+        kmp obj = new kmp();
+        String haystack = "hello";
+        String needle = "ll";
+        int result = obj.strStr(haystack, needle);
+        System.out.println("Index of first occurrence: " + result);
+        // Example output: Index of first occurrence: 2
     }
 }
