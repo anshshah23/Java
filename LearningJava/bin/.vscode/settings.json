@@ -1,8 +1,5 @@
 {
     "java.project.sourcePaths": [
-        "Recursion",
-        "InformationSecurity",
-        "greedy",
         "."
     ],
     "java.project.outputPath": "bin",

@@ -1,4 +1,4 @@
-package Math;
+package Greedy;
 import java.util.Arrays;
 class assignCookies {
     public int findContentChildren(int[] g, int[] s) {
