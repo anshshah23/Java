@@ -37,6 +37,10 @@ class queueUsingStack {
         int param_2 = obj.pop();
         int param_3 = obj.peek();
         boolean param_4 = obj.empty();
+
+        System.out.println("Popped Element: " + param_2); // Should print 1
+        System.out.println("Peek Element: " + param_3); // Should print 2
+        System.out.println("Is Queue Empty? " + param_4); // Should print false
     }
 }
 
