@@ -1,4 +1,4 @@
-package slidingWindow;
+package Arrays.slidingWindow;
 import java.util.*;
 
 public class maximumSumSubarray {

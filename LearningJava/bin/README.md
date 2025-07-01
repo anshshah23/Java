@@ -1,18 +1,46 @@
+
 ## Getting Started
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+This repository features a collection of Java programs and algorithms, organized by topic for easy navigation. Explore implementations in areas like Data Structures, Algorithms, Information Security, and more.
 
-## Folder Structure
+## Directory Structure
 
-The workspace contains two folders by default, where:
+```
+DataStructures/        # Implementations of data structures
+Algorithms/            # Common algorithm solutions
+InformationSecurity/   # Programs on security concepts
+Math/                  # Mathematical algorithms and problems
+Arrays/                # Array-based algorithms
+Strings/               # String manipulation solutions
+Recursion/             # Recursive algorithms
+Hashing/               # Hashing techniques
+Greedy/                # Greedy algorithms
+BitManipulation/       # Bitwise operations
+LinkedList/            # Linked list implementations
+Stack/                 # Stack data structure
+Queue/                 # Queue data structure
+```
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Running the Programs
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+1. **Clone the repository:**
+    ```bash
+    git clone <repository-url>
+    ```
+2. **Navigate to the project directory:**
+    ```bash
+    cd <repository-name>
+    ```
+3. **Compile a Java file:**
+    ```bash
+    javac <JavaFileName>.java
+    ```
+4. **Run the compiled program:**
+    ```bash
+    java <JavaFileName>
+    ```
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Contributing
 
-## Dependency Management
+Contributions are welcome! Fork the repository, make your changes, and submit a pull request.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
