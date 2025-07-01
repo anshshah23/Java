@@ -1,5 +1,5 @@
-package LearningJava.Math;
-
+package Math;
+// Problem: Calculate the Least Common Multiple (LCM) and Greatest Common Divisor (GCD) of two numbers
 public class lcmAndGcd {
     public static int[] calculateLcmAndGcd(int a, int b) {
         int gcd = findGcd(a, b);

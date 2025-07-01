@@ -1,5 +1,6 @@
-package LearningJava.Math;
-
+package Math;
+// Problem: Check if a number is an Armstrong number [Leetcode 1134]
+// Link: https://leetcode.com/problems/armstrong-number/
 import java.util.Scanner;
 
 class Main {
@@ -22,5 +23,6 @@ class Main {
         int n = inp.nextInt();
         boolean arm =isArmstrong(n);
         System.out.println(arm);
+        inp.close();
     }
 }

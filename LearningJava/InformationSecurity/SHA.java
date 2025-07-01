@@ -1,3 +1,4 @@
+package InformationSecurity;
 // Java program to calculate SHA-1 hash value
 import java.math.BigInteger;
 import java.security.MessageDigest;

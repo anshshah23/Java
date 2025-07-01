@@ -1,4 +1,4 @@
-package LearningJava.InformationSecurity;
+package InformationSecurity;
 import java.util.Scanner;
 
 public class PlayfairCipher {
