@@ -1,4 +1,4 @@
-package strings;
+package Strings;
 
 class revStringInplace {
     public void reverseString(char[] s) {

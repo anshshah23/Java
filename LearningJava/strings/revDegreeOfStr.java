@@ -1,4 +1,4 @@
-package strings;
+package Strings;
 
 class revDegreeOfStr {
     public int reverseDegree(String s) {

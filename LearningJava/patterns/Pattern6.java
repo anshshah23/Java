@@ -1,3 +1,4 @@
+package Patterns;
 public class Pattern6 {
     public static void main(String args[]) {
         int n = 4; // Change n to the number of rows you want

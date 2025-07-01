@@ -1,4 +1,6 @@
-package stack;
+package Stack;
+//Ignore the above line.
+
 import java.util.Stack;
 class validParenthesisStack {
     public boolean isValid(String s) {

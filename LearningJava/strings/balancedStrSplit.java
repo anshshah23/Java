@@ -1,4 +1,4 @@
-package strings;
+package Strings;
 
 class balancedStrSplit {
     public int balancedStringSplit(String s) {

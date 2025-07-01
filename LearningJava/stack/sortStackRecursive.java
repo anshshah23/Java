@@ -1,5 +1,5 @@
-/*Complete the function below*/
-package stack;
+package Stack;
+
 import java.util.*;
 
 class sortStackRecursive {

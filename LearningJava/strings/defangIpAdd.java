@@ -1,4 +1,4 @@
-package strings;
+package Strings;
 public class defangIpAdd {
     public String defangIPaddr(String address) {
         return address.replace(".","[.]");

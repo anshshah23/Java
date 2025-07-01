@@ -1,4 +1,4 @@
-package strings;
+package Strings;
 
 public class parentheses {
     public int maxDepth(String s) {

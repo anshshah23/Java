@@ -1,3 +1,10 @@
+package Strings;
+// Ignore the above line.
+
+import java.util.HashMap;
+import java.util.Map;
+
+// This class checks if a given pattern matches a string based on character to word mapping.
 class stringMatchHashing {
     public boolean wordPattern(String pattern, String s) {
         
