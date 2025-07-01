@@ -1,3 +1,5 @@
+package Recursion;
+
 public class countGoodNumbers {
     int mod = 1000000007;
     public int countGoodNumber(long n) {
