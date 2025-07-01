@@ -1,8 +1,6 @@
 package InformationSecurity;
 import java.util.Scanner;
 import java.util.Arrays;
-import java.util.HashMap;
-import java.util.Map;
 
 public class ColumnarTranspositionCipher {
     public static void main(String[] args) {
@@ -76,7 +74,6 @@ public class ColumnarTranspositionCipher {
     private static int[] getKeyOrder(String key) {
         int length = key.length();
         Character[] sortedKey = new Character[length];
-        Map<Character, Integer> keyOrderMap = new HashMap<>();
 
         for (int i = 0; i < length; i++) {
             sortedKey[i] = key.charAt(i);
