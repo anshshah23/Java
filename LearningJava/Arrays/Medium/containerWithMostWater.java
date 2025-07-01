@@ -1,6 +1,7 @@
+package Arrays.Medium;
 /* Please note this is not an optimized solution! */
-import java.util.*;
-
+// Problem: LeetCode 11. Container With Most Water
+// Link: https://leetcode.com/problems/container-with-most-water/
 class containerWithMostWater {
     public int maxArea(int[] height) {
         int s = 0;

@@ -1,3 +1,6 @@
+package Arrays.Medium;
+// Problem: LeetCode 28. Implement strStr()
+// Link: https://leetcode.com/problems/implement-strstr/
 class kmp {
     public int strStr(String haystack, String needle) {
         if (needle.length() == 0) return 0;
