@@ -1,5 +1,6 @@
 package Strings;
-
+// LeetCode Problem: 3498. Reverse Degree of a String [Easy]
+// Problem Link: https://leetcode.com/problems/reverse-degree-of-a-string/
 class revDegreeOfStr {
     public int reverseDegree(String s) {
         int n = s.length();

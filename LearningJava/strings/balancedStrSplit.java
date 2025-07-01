@@ -1,5 +1,6 @@
 package Strings;
-
+// LeetCode Problem: 1221. Split a String in Balanced Strings
+// Problem Link: https://leetcode.com/problems/split-a-string-in-balanced-strings/
 class balancedStrSplit {
     public int balancedStringSplit(String s) {
         int cnt = 0;

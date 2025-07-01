@@ -1,5 +1,6 @@
 package Strings;
-//Leetcode Problem 3330: https://leetcode.com/problems/find-the-original-typed-string-i/
+//Leetcode Problem 3330: Find the Original Typed String I [Easy]
+//Problem Link: https://leetcode.com/problems/find-the-original-typed-string-i/
 public class possibleStringCount {
     public int possibleStringCounting(String word) {
         int ans = 1;

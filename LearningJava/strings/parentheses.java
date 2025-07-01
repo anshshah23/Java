@@ -1,5 +1,6 @@
 package Strings;
-
+// LeetCode Problem: 1614. Maximum Nesting Depth of the Parentheses [Easy]
+// Problem Link: https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/
 public class parentheses {
     public int maxDepth(String s) {
         int max = 0, count = 0;

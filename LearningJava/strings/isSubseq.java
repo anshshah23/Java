@@ -1,4 +1,6 @@
 package Strings;
+// LeetCode Problem: 392. Is Subsequence [Easy]
+// Problem Link: https://leetcode.com/problems/is-subsequence/
 class isSubseq {
     public boolean isSubsequence(String s, String t) {
         int i = 0, j = 0;

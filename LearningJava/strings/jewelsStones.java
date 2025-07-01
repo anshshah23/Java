@@ -1,4 +1,6 @@
 package Strings;
+// LeetCode Problem: 771. Jewels and Stones [Easy]
+// Problem Link: https://leetcode.com/problems/jewels-and-stones/
 class jewelsStones {
     public int numJewelsInStones(String jewels, String stones) {
         int s = stones.length();
