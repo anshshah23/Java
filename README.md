@@ -1,7 +1,7 @@
 
 # Getting Started
 
-This repository features a collection of Java programs and algorithms, organized by topic for easy navigation. Explore implementations in areas like Data Structures, Algorithms, Information Security, and more.
+This repository features a collection of Java programs and algorithms, organized by topic for easy navigation. Explore implementations in areas like Data Structures, Algorithms, Information Security Algo Codes, and more.
 
 ## Directory Structure
 
